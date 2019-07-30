@@ -1,0 +1,54 @@
+
+body {
+    font-size: large;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em; /*行高*/
+    background-color: #f5f6f7;
+    width: 100%;
+    height: 100%;
+
+}
+
+#tableContainer {
+    display: table;
+    border-spacing: 10px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+section#mymenu{
+    display: table-cell;
+    background-color: #ffffff;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+    height: 400px;
+}
+
+#allcontent {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #d0d0d0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+section#mycontext {
+    display: table-cell;
+    background: #ffffff top left;
+    font-size: 105%;
+    padding: 15px;
+    width: 900px;
+    height: 400px;
+    /*
+    margin:0px 10px 10px 10px;
+    */
+    vertical-align: top;
+    /*
+        width:  500px;
+        float:  left;
+        */
+}

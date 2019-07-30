@@ -1,0 +1,9 @@
+问题1： controller中autowired 需要用接口类
+
+    刚学习Shiro，然后想把他整合到spring MVC里面。
+    搞了好久，一直不能用@Autowired进行注解
+    最后发现注解只在Controller不能用，查了好多资料，但都没整明白，最后猛然发现，引用了Shiro后，Controller层，不能用实体类的bean，必须通过接口实现。
+    比如：我之前的UserService直接是class，然后加上@Service注解，这个不行
+    必须要先写一个UserService接口，然后再写一个UserServiceImpl集成UserService接口
+    然后，我的Controller就可以@Autowired UserService了
+
